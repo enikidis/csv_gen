@@ -92,9 +92,6 @@ with open('al092004_Ivan.csv') as file:
         conferror1=("       echo ")
         conferror2=(" CONFIGRATION ERROR: Unknown ensemble member number: \n ")  #this must be added to the csv file. there is conflict btween the character for strings from bash and python
         f.write(conferror1 + conferror2 )
-        
-        
-        
         f.write("      ;;\n")
         f.write("esac\n")
         f.write("#\n")
